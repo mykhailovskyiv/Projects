@@ -1,0 +1,2447 @@
+/*ACCOUNT*/
+/* line 3, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-menu-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 85px;
+  margin-right: 220px;
+  margin-left: 220px;
+}
+
+/* line 11, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-menu-block .icon_settings {
+  display: flex;
+  margin-right: 60px;
+  width: 120px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* line 18, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-menu-block .title_settings {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+/* line 26, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block {
+  margin-right: 220px;
+  margin-left: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 31, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block.mobile {
+  display: none;
+}
+
+/* line 34, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* line 39, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 52px;
+}
+
+/* line 45, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main .subscribe_title {
+  display: flex;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 53, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main .first {
+  width: 28%;
+}
+
+/* line 56, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main .second {
+  width: 13%;
+}
+
+/* line 59, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main .third {
+  width: 13%;
+}
+
+/* line 62, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .subscribe_main .four {
+  width: 38%;
+}
+
+/* line 66, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block .one {
+  background: #C4C4C4;
+}
+
+/* line 69, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block form {
+  position: relative;
+  align-self: flex-end;
+}
+
+/* line 72, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .subscribe_block form .extend_button {
+  position: relative;
+  bottom: 42px;
+  width: 95px;
+  height: 42px;
+  border: 1px solid #D71212;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 86, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .extend_button_two {
+  display: none;
+}
+
+/* line 89, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.account-block .get_access {
+  align-self: center;
+  width: 195px;
+  height: 48px;
+  background-color: #D71212;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 600px;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 200px;
+  margin-bottom: 450px;
+}
+
+/*ACCOUNT*/
+/*ACCOUNT_SETTINGS*/
+/* line 106, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_up {
+  display: none;
+}
+
+/* line 109, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up {
+  display: none;
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  border-top: 2px solid #D71212;
+  padding-top: 25px;
+}
+
+/* line 116, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .close_menu {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* line 123, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .close_menu:hover {
+  opacity: 0.3;
+}
+
+/* line 126, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .close_menu:before, .settings_pop_up .close_menu:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+
+/* line 134, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .close_menu:before {
+  transform: rotate(45deg);
+}
+
+/* line 137, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .close_menu:after {
+  transform: rotate(-45deg);
+}
+
+/* line 140, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .log-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 190px;
+  margin-right: 190px;
+  justify-content: space-between;
+}
+
+/* line 147, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .log-form .settings_form_block {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 148, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .log-form .settings_form_block label {
+  align-self: baseline;
+}
+
+/* line 156, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.settings_pop_up .log-form .settings_save {
+  width: 520px;
+  height: 64px;
+  background: rgba(211, 40, 40, 0.76);
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF;
+  margin-top: 150px;
+  margin-bottom: 374px;
+  border: none;
+  cursor: pointer;
+}
+
+/*FAQ*/
+/* line 177, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 90px;
+}
+
+/* line 181, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq h1 {
+  text-align: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+}
+
+/* line 192, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* line 196, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_question {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-bottom: 200px;
+}
+
+/* line 201, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_question .question_title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  width: 100%;
+  height: 73px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+/* line 218, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_question .question_title:focus {
+  border: 1px solid black;
+}
+
+/* line 221, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_question .faq_answer.mobile {
+  display: none;
+}
+
+/* line 225, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_answer {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+/* line 229, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_answer .answer_title {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #383D5D;
+}
+
+/* line 237, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+.container_faq .faq_block .faq_answer .answer_description {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+/*FAQ*/
+/*ACCOUNT_SETTINGS*/
+@media (max-width: 1919px) {
+  /* line 251, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide {
+    height: 850px;
+  }
+}
+
+@media (max-width: 1920px) {
+  /* line 256, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header {
+    height: 58px;
+  }
+  /* line 258, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header {
+    max-width: 1264px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  /* line 265, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo {
+    margin: 0;
+  }
+  /* line 268, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo img {
+    height: 39px;
+    width: 118px;
+  }
+  /* line 272, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block {
+    min-width: 700px;
+    margin: 0;
+  }
+  /* line 276, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block button img {
+    width: 35%;
+  }
+  /* line 282, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block input {
+    width: 620px;
+    height: 34px;
+  }
+  /* line 286, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block button {
+    width: 80px;
+    height: 34px;
+  }
+  /* line 290, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn {
+    margin: 0;
+    margin-right: 95px;
+  }
+  /* line 294, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .menu {
+    width: 21px;
+    margin: 0;
+  }
+  /* line 298, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .menu_block_container {
+    margin-top: 9px;
+  }
+  /*ACCOUNT*/
+  /* line 305, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block {
+    max-width: 1264px;
+    margin: 0 auto;
+  }
+  /* line 308, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .title_settings {
+    font-size: 21px;
+    line-height: 24px;
+  }
+  /* line 313, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block {
+    max-width: 1264px;
+    margin: 0 auto;
+  }
+  /* line 316, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block {
+    margin-top: 40px;
+  }
+  /* line 319, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .subscribe_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 324, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .extend_button {
+    height: 33px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 330, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .get_access {
+    width: 184px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 120px;
+    margin-bottom: 300px;
+  }
+  /*ACCOUNT*/
+  /*ACCOUNT_SETTINGS*/
+  /* line 341, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up {
+    max-width: 1264px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  /* line 345, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  /* line 349, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_form_block {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 350, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_form_block label {
+    align-self: baseline;
+  }
+  /* line 356, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_save {
+    width: 470px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 165%;
+    margin-top: 150px;
+    margin-bottom: 374px;
+    border: none;
+  }
+  /*ACCOUNT_SETTINGS*/
+  /*HOME*/
+  /* line 372, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 376, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home {
+    width: auto;
+  }
+  /* line 378, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home img {
+    width: 176px;
+    height: 105px;
+  }
+  /* line 382, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home input {
+    height: 50px;
+    width: 690px;
+  }
+  /* line 386, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button {
+    width: 159px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* line 393, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner {
+    width: 1020px;
+    height: 134px;
+  }
+  /* line 397, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .b-wrap-2 img {
+    width: 80%;
+  }
+  /* line 400, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .b-wrap-2 div {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 409, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container {
+    width: 1264px;
+  }
+  /* line 411, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category {
+    width: 301px;
+  }
+  /* line 414, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category .bucvica label {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  /* line 419, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category .category-links {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* line 426, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about {
+    max-width: 1264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  /* line 433, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about h2 {
+    font-size: 56px;
+    line-height: 73px;
+    margin: 0 0 0 80px;
+    display: flex;
+    align-self: baseline;
+  }
+  /* line 440, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info {
+    height: 590px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* line 444, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info p {
+    width: 555px;
+  }
+  /* line 449, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home {
+    max-width: 1264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 115px;
+    margin-top: 100px;
+  }
+  /* line 460, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-up-block {
+    font-size: 20px;
+  }
+  /* line 463, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .plan {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  /* line 467, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* line 471, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price {
+    font-size: 64px;
+    line-height: 78px;
+  }
+  /* line 474, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price .dollar {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  /*HOME*/
+  /*LEGAL NOTICE*/
+  /* line 484, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap {
+    padding-top: 83px;
+    width: 805px;
+    margin: 0 auto;
+  }
+  /* line 488, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap h1 {
+    font-size: 34px;
+    line-height: 41px;
+  }
+  /* line 492, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap .text-block {
+    font-size: 18px;
+    line-height: 170%;
+  }
+  /*LEGAL NOTICE*/
+  /*FOOTER*/
+  /* line 500, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer {
+    height: 350px;
+  }
+  /* line 502, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block {
+    display: flex;
+    max-width: 1264px;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0 auto;
+  }
+  /* line 508, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu {
+    width: 50%;
+  }
+  /* line 511, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block a {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 517, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe {
+    width: 40%;
+    margin-left: 10%;
+  }
+  /* line 520, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe label {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  /* line 525, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form button {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  /* line 532, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .copy {
+    font-size: 15px;
+  }
+  /*FOOTER*/
+  /*CATEGORY*/
+  /* line 538, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block {
+    max-width: 1264px;
+    margin: 0 auto;
+  }
+  /* line 542, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs-main label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 548, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models {
+    height: 440px;
+  }
+  /* line 551, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model .model-links {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /*CATEGORY*/
+  /*CATALOG*/
+  /* line 561, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs {
+    max-width: 1264px;
+    margin: 0 auto;
+    min-height: 500px;
+  }
+  /* line 567, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 574, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog, .catalogs .catalogs-lists .service-manual {
+    width: 463px;
+  }
+  /* line 576, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label, .catalogs .catalogs-lists .service-manual .cat-block-label {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  /* line 580, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+  }
+  /* line 585, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat img, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat img {
+    width: 25%;
+    position: initial;
+  }
+  /* line 589, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat label, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat label {
+    font-size: 24px;
+    line-height: 29px;
+    position: initial;
+    width: 100%;
+  }
+  /* line 598, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf a, .catalogs .catalogs-lists .service-manual .list-pdf a {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  /*CATALOG*/
+  /*VIEWING*/
+  /* line 608, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing {
+    width: 1280px;
+  }
+  /* line 613, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 620, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .modal-block .modal-text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  /*VIEWING*/
+  /*SIGN UP*/
+  /* line 628, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in {
+    width: 664px;
+  }
+  /* line 630, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .log-label {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* line 634, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .label-after-resetpas {
+    width: 440px;
+    font-size: 18px;
+  }
+  /* line 640, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form {
+    width: 490px;
+  }
+  /* line 642, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form label {
+    font-size: 18px;
+  }
+  /* line 645, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form input {
+    width: 470px;
+    font-size: 18px;
+    padding-left: 20px;
+    height: 56px;
+  }
+  /* line 651, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form button {
+    width: 470px;
+    font-size: 24px;
+    line-height: 29px;
+    height: 56px;
+  }
+  /* line 657, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form textarea {
+    width: 470px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  /*SIGN UP*/
+  /*FAQ*/
+  /* line 666, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq {
+    max-width: 1264px;
+    margin: 0 auto;
+  }
+  /* line 669, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  /* line 675, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question .question_title {
+    height: 67px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+  /* line 682, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_answer .answer_title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  /* line 686, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_answer .answer_description {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  /*FAQ*/
+}
+
+@media (max-width: 1439px) {
+  /* line 699, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin: 0 10px;
+  }
+  /* line 706, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo img {
+    height: 39px;
+    width: 118px;
+  }
+  /* line 711, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block {
+    min-width: 659px;
+    height: 34px;
+  }
+  /* line 714, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block input {
+    width: 579px;
+    height: 34px;
+  }
+  /* line 718, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block button {
+    height: 34px;
+    width: 80px;
+  }
+  /* line 723, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .menu {
+    margin: 0px;
+    margin-right: 40px;
+  }
+  /*ACCOUNT*/
+  /* line 730, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  /* line 733, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .title_settings {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  /* line 738, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  /* line 741, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block {
+    margin-top: 40px;
+  }
+  /* line 744, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .subscribe_title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 749, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .extend_button {
+    height: 28px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 755, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .get_access {
+    width: 144px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 120px;
+    margin-bottom: 280px;
+  }
+  /*ACCOUNT*/
+  /*ACCOUNT_SETTINGS*/
+  /* line 766, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up {
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+  }
+  /* line 770, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 776, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_form_block {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 777, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_form_block label {
+    align-self: baseline;
+  }
+  /* line 783, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_save {
+    width: 401px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border: none;
+  }
+  /* line 793, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .close_menu {
+    width: 46px;
+  }
+  /*ACCOUNT_SETTINGS*/
+  /*HOME*/
+  /* line 799, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide {
+    height: 873px;
+  }
+  /* line 801, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 805, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home {
+    width: auto;
+  }
+  /* line 807, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home img {
+    width: 176px;
+    height: 105px;
+  }
+  /* line 811, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home input {
+    height: 50px;
+    width: 809px;
+  }
+  /* line 815, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button {
+    width: 159px;
+    height: 50px;
+  }
+  /* line 820, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner {
+    width: 1020px;
+    height: 134px;
+  }
+  /* line 824, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .b-wrap-2 img {
+    width: 80%;
+  }
+  /* line 827, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .b-wrap-2 div {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 836, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container {
+    width: 1120px;
+  }
+  /* line 838, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category {
+    width: 264px;
+  }
+  /* line 840, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category .bucvica {
+    width: 46px;
+    height: 46px;
+  }
+  /* line 843, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category .bucvica label {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* line 848, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container .category .category-links {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 855, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about {
+    margin: 100px 35px 0 35px;
+  }
+  /* line 858, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about h2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  /* line 863, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info p {
+    font-size: 16px;
+    width: 526px;
+  }
+  /* line 870, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-home-p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 876, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-up-block {
+    font-size: 18px;
+  }
+  /* line 879, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .plan {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* line 883, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 887, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price {
+    font-size: 58px;
+    line-height: 71px;
+  }
+  /* line 891, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .btn-pricing-pay {
+    width: 189px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /*HOME*/
+  /*CATEGORY*/
+  /* line 902, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block {
+    margin-left: 80px;
+  }
+  /* line 905, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs-main label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 911, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models {
+    height: 400px;
+  }
+  /* line 914, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model .model-links {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /*CATEGORY*/
+  /*CATALOG*/
+  /* line 924, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs {
+    width: 100%;
+    margin-left: 80px;
+    min-height: 400px;
+  }
+  /* line 930, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 937, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog, .catalogs .catalogs-lists .service-manual {
+    width: 397px;
+  }
+  /* line 939, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label, .catalogs .catalogs-lists .service-manual .cat-block-label {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 41px;
+  }
+  /* line 944, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+  }
+  /* line 949, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat img, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat img {
+    width: 21%;
+    position: initial;
+  }
+  /* line 953, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat label, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat label {
+    font-size: 20px;
+    line-height: 24px;
+    position: initial;
+  }
+  /* line 959, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .red-arrow, .catalogs .catalogs-lists .service-manual .cat-block-label .red-arrow {
+    top: 15px;
+  }
+  /* line 961, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .red-arrow img, .catalogs .catalogs-lists .service-manual .cat-block-label .red-arrow img {
+    width: 80%;
+  }
+  /* line 967, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf a, .catalogs .catalogs-lists .service-manual .list-pdf a {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* line 972, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf .pdf-ico img, .catalogs .catalogs-lists .service-manual .list-pdf .pdf-ico img {
+    width: 7%;
+  }
+  /*CATALOG*/
+  /*VIEWING*/
+  /* line 982, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing {
+    width: 1120px;
+  }
+  /* line 987, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 993, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .modal-block {
+    height: 286px;
+  }
+  /* line 995, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .modal-block .modal-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 998, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .modal-block .modal-text button {
+    width: 213px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /*VIEWING*/
+  /*SIGN UP*/
+  /* line 1008, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in {
+    width: 578px;
+  }
+  /* line 1010, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .log-label {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* line 1014, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .label-after-resetpas {
+    width: 386px;
+    font-size: 16px;
+  }
+  /* line 1020, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form {
+    width: 421px;
+  }
+  /* line 1022, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form label {
+    font-size: 16px;
+  }
+  /* line 1025, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form input {
+    width: 401px;
+    font-size: 16px;
+    padding-left: 20px;
+    height: 48px;
+  }
+  /* line 1031, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form button {
+    width: 401px;
+    font-size: 20px;
+    line-height: 24px;
+    height: 48px;
+  }
+  /* line 1037, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form textarea {
+    width: 401px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  /*SIGN UP*/
+  /*LEGAL NOTICE*/
+  /* line 1046, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap {
+    padding-top: 83px;
+    min-height: 800px;
+    width: 805px;
+    margin: 0 auto;
+  }
+  /* line 1051, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap h1 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+  /* line 1055, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap .text-block {
+    font-size: 16px;
+    line-height: 170%;
+  }
+  /*LEGAL NOTICE*/
+  /*FOOTER*/
+  /* line 1063, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block {
+    padding-top: 39px;
+  }
+  /* line 1065, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 1070, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe p {
+    font-size: 14px;
+  }
+  /* line 1074, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form button {
+    font-size: 16px;
+  }
+  /* line 1080, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .copy {
+    font-size: 14px;
+  }
+  /*FOOTER*/
+}
+
+@media (max-width: 1279px) {
+  /* line 1087, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header {
+    height: 46px;
+  }
+  /* line 1090, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo {
+    margin-left: 20px;
+  }
+  /* line 1092, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo img {
+    width: 83px;
+    height: 27px;
+  }
+  /* line 1097, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .menu-block {
+    top: 46px;
+    right: 0px;
+  }
+  /* line 1101, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block {
+    min-width: 220px;
+  }
+  /* line 1103, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block input {
+    width: 220px;
+    height: 32px;
+  }
+  /* line 1107, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block button {
+    width: 88px;
+    height: 32px;
+  }
+  /* line 1113, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn {
+    margin-right: 49px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  /*ACCOUNT*/
+  /* line 1121, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  /* line 1124, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .title_settings {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  /* line 1129, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  /* line 1132, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block {
+    margin-top: 40px;
+  }
+  /* line 1135, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .subscribe_title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 1140, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .extend_button {
+    height: 28px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 1146, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .get_access {
+    width: 118px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 85px;
+    margin-bottom: 130px;
+  }
+  /*ACCOUNT*/
+  /*ACCOUNT_SETTINGS*/
+  /* line 1157, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  /* line 1160, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form {
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1166, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_form_block {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1167, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_form_block label {
+    align-self: baseline;
+  }
+  /* line 1173, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_up .log-form .settings_save {
+    width: 401px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border: none;
+  }
+  /*ACCOUNT_SETTINGS*/
+  /*HOME*/
+  /* line 1186, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide {
+    height: 423px;
+  }
+  /* line 1189, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home {
+    width: 623px;
+  }
+  /* line 1191, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home img {
+    width: 109px;
+    height: 64px;
+  }
+  /* line 1195, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home input {
+    width: 420px;
+    height: 42px;
+  }
+  /* line 1199, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button {
+    width: 120px;
+    height: 42px;
+  }
+  /* line 1204, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner {
+    width: 688px;
+    height: 88px;
+    margin-top: 91px;
+  }
+  /* line 1211, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .figure {
+    width: 370px;
+    height: 200px;
+    background-size: contain;
+    margin: 0 auto;
+  }
+  /* line 1218, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container {
+    width: 0;
+    min-width: 638px;
+  }
+  /* line 1223, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about {
+    margin: 100px 0 0 0;
+  }
+  /* line 1225, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about h2 {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 0 46px;
+  }
+  /* line 1230, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 525px;
+  }
+  /* line 1238, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info p {
+    width: 294px;
+    font-size: 15px;
+    line-height: 165%;
+    display: flex;
+    margin: 0px 0px 150px 46px;
+    padding: 0px;
+  }
+  /* line 1249, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-home-p {
+    font-size: 16px;
+    line-height: 19px;
+    width: 639px;
+    margin: auto;
+  }
+  /* line 1255, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block {
+    width: 580px;
+    margin-top: 69px;
+  }
+  /* line 1258, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block {
+    width: 280px;
+  }
+  /* line 1260, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-up-block {
+    font-size: 16px;
+  }
+  /* line 1263, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .plan {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  /* line 1267, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price-p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 1271, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .price {
+    font-size: 54px;
+    line-height: 66px;
+  }
+  /* line 1275, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block .btn-pricing-pay {
+    width: 164px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /*HOME*/
+  /*CATEGORY*/
+  /* line 1286, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+  /* line 1291, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs-main label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 1296, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* line 1300, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models {
+    width: 50%;
+    height: 600px;
+    margin: 0;
+  }
+  /* line 1304, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model {
+    width: 100%;
+  }
+  /* line 1306, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model .model-links {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /*CATEGORY*/
+  /*CATALOG*/
+  /* line 1316, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs {
+    width: auto;
+    margin-left: 80px;
+    min-height: 600px;
+  }
+  /*CATALOG*/
+  /*VIEWING*/
+  /* line 1324, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing {
+    width: 688px;
+  }
+  /* line 1326, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing .pdf-block {
+    width: 100%;
+  }
+  /* line 1332, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main label {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  /* line 1338, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .modal-block {
+    height: 286px;
+    width: 90%;
+  }
+  /* line 1343, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #paypal-button-container #zoid-paypal-buttons-c11163a11c_mtm6ndy6mzu {
+    width: 90%;
+  }
+  /*VIEWING*/
+  /*SIGN UP*/
+  /* line 1350, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in {
+    width: 493px;
+  }
+  /* line 1352, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .log-label {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  /* line 1356, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .label-after-resetpas {
+    width: 376px;
+    font-size: 15px;
+  }
+  /* line 1362, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form {
+    width: 373px;
+  }
+  /* line 1364, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form label {
+    font-size: 16px;
+  }
+  /* line 1367, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form input {
+    width: 353px;
+    font-size: 16px;
+    padding-left: 20px;
+    height: 46px;
+  }
+  /* line 1373, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form button {
+    width: 353px;
+    font-size: 20px;
+    line-height: 24px;
+    height: 46px;
+  }
+  /* line 1379, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form textarea {
+    width: 353px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  /*SIGN UP*/
+  /* line 1388, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page {
+    width: auto;
+    padding-left: 40px;
+  }
+  /* line 1391, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page h1 {
+    font-size: 28px;
+  }
+  /* line 1394, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .search-res-label {
+    font-size: 24px;
+  }
+  /* line 1397, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .model-links {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  /* line 1401, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .search-pdf a {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  /*FAQ*/
+  /* line 1409, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  /* line 1412, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  /* line 1417, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question {
+    width: 100%;
+  }
+  /* line 1419, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question .question_title {
+    font-size: 20px;
+    line-height: 24px;
+    height: 73px;
+  }
+  /* line 1425, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_answer {
+    display: none;
+    width: 100%;
+  }
+  /* line 1428, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_answer .answer_description {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  /*FAQ*/
+  /*LEGAL NOTICE*/
+  /* line 1437, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap {
+    padding-top: 83px;
+    min-height: 600px;
+    width: 685px;
+    margin: 0 auto;
+  }
+  /* line 1442, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap h1 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  /* line 1446, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap .text-block {
+    font-size: 16px;
+    line-height: 170%;
+  }
+  /*LEGAL NOTICE*/
+  /*FOOTER*/
+  /* line 1454, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer {
+    height: 460px;
+  }
+  /* line 1456, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  /* line 1459, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu {
+    width: auto;
+    justify-content: center;
+  }
+  /* line 1463, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block p {
+    margin-top: 0px;
+  }
+  /* line 1468, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe {
+    width: 488px;
+    margin-left: 0px;
+  }
+  /*FOOTER*/
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 1477, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* line 1482, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .logo {
+    margin-left: 20px;
+  }
+  /* line 1485, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .search-block {
+    display: none;
+  }
+  /* line 1488, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .profile-head {
+    display: none;
+  }
+  /* line 1491, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+    width: 30%;
+    margin-right: 0;
+  }
+  /* line 1497, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn .search-icon {
+    display: block;
+    margin-right: 45px;
+  }
+  /* line 1500, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn .search-icon img {
+    width: 110%;
+  }
+  /* line 1504, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn .profile-icon {
+    display: block;
+  }
+  /* line 1506, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .sing-up-btn .profile-icon img {
+    width: 110%;
+  }
+  /* line 1511, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .container_header .menu_block_container {
+    width: 500px;
+    height: 0px;
+  }
+  /* line 1516, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .search-block-home_mobile {
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    width: 280px;
+    margin: 0 auto;
+    position: relative;
+    top: 42px;
+  }
+  /* line 1524, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .search-block-home_mobile input {
+    width: 220px;
+    height: 42px;
+    border: none;
+  }
+  /* line 1529, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .search-block-home_mobile button {
+    background: #d71212;
+    width: 60px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+  }
+  /* line 1535, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  header .search-block-home_mobile button .home-search-img {
+    display: block;
+  }
+  /*ACCOUNT*/
+  /* line 1542, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  /* line 1549, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .icon_settings {
+    display: flex;
+    margin-right: 20px;
+    width: 85px;
+    justify-content: space-between;
+  }
+  /* line 1554, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .icon_settings img {
+    width: 22px;
+  }
+  /* line 1558, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-menu-block .title_settings {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  /* line 1563, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block {
+    padding-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1569, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block.mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1572, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block.mobile .subscribe_block_account {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 1575, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block.mobile .subscribe_block_account form {
+    display: flex;
+    width: 100%;
+  }
+  /* line 1578, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block.mobile .subscribe_block_account form .extend_button.mobile {
+    display: flex;
+    position: initial;
+    width: 100%;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 1590, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block {
+    display: none;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+  }
+  /* line 1595, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    height: 100%;
+  }
+  /* line 1602, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .subscribe_title {
+    display: flex;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  /* line 1609, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .first {
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 38px;
+    align-items: center;
+  }
+  /* line 1615, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .second {
+    width: 100%;
+  }
+  /* line 1618, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .third {
+    width: 100%;
+  }
+  /* line 1621, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main .four {
+    width: 60%;
+    align-self: baseline;
+  }
+  /* line 1626, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .one {
+    background: transparent;
+  }
+  /* line 1629, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main.two {
+    align-items: center;
+  }
+  /* line 1631, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main.two .first {
+    padding-left: 0px;
+  }
+  /* line 1634, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main.two .first, .account-block .subscribe_block .subscribe_main.two .second, .account-block .subscribe_block .subscribe_main.two .third {
+    justify-content: center;
+  }
+  /* line 1637, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .subscribe_main.two .four {
+    align-self: flex-end;
+  }
+  /* line 1641, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .subscribe_block .extend_button {
+    display: none;
+  }
+  /* line 1645, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .extend_button_two {
+    display: block;
+    align-self: center;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #D71212;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600px;
+    color: black;
+    margin-top: 25px;
+    background: transparent;
+  }
+  /* line 1658, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .account-block .get_access {
+    align-self: center;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 25px;
+    margin-bottom: 110px;
+  }
+  /*ACCOUNT*/
+  /*ACCOUNT_SETTINGS*/
+  /* line 1672, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+  }
+  /* line 1676, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+  /* line 1681, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_form_block {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 1682, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_form_block label {
+    align-self: baseline;
+  }
+  /* line 1688, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .log-form .settings_save {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  /* line 1696, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .close_menu {
+    position: absolute;
+    left: 87%;
+    width: 30px;
+    height: 19px;
+  }
+  /* line 1702, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .settings_pop_up .close_menu::before, .settings_pop_up .close_menu::after {
+    height: 19px;
+  }
+  /*ACCOUNT_SETTINGS*/
+  /*HOME*/
+  /* line 1708, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide {
+    height: 650px;
+    background-size: cover;
+  }
+  /* line 1712, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home {
+    width: 280px;
+    padding-top: 120px;
+  }
+  /* line 1715, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home img {
+    display: none;
+  }
+  /* line 1718, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home input {
+    width: 221px;
+  }
+  /* line 1721, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button {
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 1726, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button .home-search-img {
+    display: block;
+  }
+  /* line 1728, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .search-block-home button .home-search-img img {
+    display: block;
+    width: 27px;
+    height: 29px;
+  }
+  /* line 1736, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner {
+    width: 280px;
+    height: 234px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+  }
+  /* line 1741, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .baner-wrap {
+    width: 40%;
+  }
+  /* line 1743, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .baner-wrap .b-wrap-2 {
+    width: 99px;
+    height: 47px;
+  }
+  /* line 1746, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .baner-wrap .b-wrap-2 img {
+    width: 85%;
+  }
+  /* line 1749, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .baner-wrap .b-wrap-2 div {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 1752, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .main-slide .container .baner .baner-wrap .b-wrap-2 div p {
+    width: 45px;
+  }
+  /* line 1761, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .figure {
+    width: 270px;
+    height: 120px;
+  }
+  /* line 1766, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .categories .container {
+    width: 280px;
+    min-width: 0px;
+  }
+  /* line 1771, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 1775, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about h2 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  /* line 1779, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info {
+    background: none;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  /* line 1784, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .mobile_title {
+    display: flex;
+  }
+  /* line 1787, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info p {
+    margin: 0 auto;
+  }
+  /* line 1790, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .about-back-img {
+    display: block;
+  }
+  /* line 1793, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .icon_pdf__content {
+    display: flex;
+  }
+  /* line 1795, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .icon_pdf__content .icon_pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+    right: 40px;
+  }
+  /* line 1801, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .icon_pdf__content .icon_pdf p {
+    width: auto;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  /* line 1812, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  #about .about-home-info .icon_pdf__content .icon_pdf.two {
+    right: 0px;
+    left: 100px;
+    bottom: 45px;
+  }
+  /* line 1821, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-home-p {
+    width: 280px;
+  }
+  /* line 1824, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+  }
+  /* line 1829, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pricing-home .pricing-block .pricing-ins-block {
+    margin: 0 auto;
+    margin-bottom: 57px;
+  }
+  /*HOME*/
+  /* line 1837, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page {
+    width: auto;
+    padding-left: 20px;
+    min-height: 400px;
+  }
+  /* line 1841, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page h1 {
+    font-size: 24px;
+  }
+  /* line 1844, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .search-res-label {
+    font-size: 20px;
+  }
+  /* line 1847, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .model-links {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  /* line 1851, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .search-pdf a {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  /* line 1855, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .search-page .pdf-ico img {
+    width: 30px;
+  }
+  /*CATEGORY*/
+  /* line 1862, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  /* line 1867, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs .grey-block {
+    display: none;
+  }
+  /* line 1870, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs .breadcrumbs-main {
+    border-top: none;
+    border-bottom: 2px solid #d71212;
+  }
+  /* line 1873, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs .breadcrumbs-main label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 1878, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .breadcrumbs .red-block {
+    position: relative;
+    top: 52px;
+  }
+  /* line 1883, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  /* line 1888, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  /* line 1892, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model {
+    width: 100%;
+  }
+  /* line 1894, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalog-block .models .categories-models .model .model-links {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /*CATEGORY*/
+  /*CATALOG*/
+  /* line 1904, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs {
+    width: 90%;
+    margin-left: 20px;
+    min-height: 400px;
+    margin-right: 20px;
+  }
+  /* line 1910, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .grey-block {
+    display: none;
+  }
+  /* line 1913, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main {
+    border-top: none;
+    border-bottom: 2px solid #d71212;
+    padding: auto;
+  }
+  /* line 1917, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 1921, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main label:last-child {
+    padding-right: 15px;
+  }
+  /* line 1925, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .breadcrumbs-main .bread img {
+    width: 7px;
+  }
+  /* line 1930, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .breadcrumbs .red-block {
+    display: none;
+    top: 52px;
+  }
+  /* line 1935, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists {
+    margin-left: 0;
+  }
+  /* line 1937, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog, .catalogs .catalogs-lists .service-manual {
+    width: 90%;
+  }
+  /* line 1939, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label, .catalogs .catalogs-lists .service-manual .cat-block-label {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 41px;
+  }
+  /* line 1944, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+  }
+  /* line 1949, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat img, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat img {
+    width: 20%;
+    position: initial;
+  }
+  /* line 1953, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .label-parts-cat label, .catalogs .catalogs-lists .service-manual .cat-block-label .label-parts-cat label {
+    font-size: 20px;
+    line-height: 24px;
+    position: initial;
+  }
+  /* line 1959, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .red-arrow, .catalogs .catalogs-lists .service-manual .cat-block-label .red-arrow {
+    top: 15px;
+  }
+  /* line 1961, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .cat-block-label .red-arrow img, .catalogs .catalogs-lists .service-manual .cat-block-label .red-arrow img {
+    width: 80%;
+  }
+  /* line 1966, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf, .catalogs .catalogs-lists .service-manual .list-pdf {
+    width: 100%;
+    margin-left: 40px;
+  }
+  /* line 1969, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf a, .catalogs .catalogs-lists .service-manual .list-pdf a {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  /* line 1975, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .catalogs .catalogs-lists .parts-catalog .list-pdf .pdf-ico img, .catalogs .catalogs-lists .service-manual .list-pdf .pdf-ico img {
+    width: 7%;
+  }
+  /*CATALOG*/
+  /*VIEWING*/
+  /* line 1985, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* line 1989, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .pdf-viewing .pdf-block {
+    height: 650px;
+  }
+  /* line 1994, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .grey-block {
+    display: none;
+  }
+  /* line 1997, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main {
+    border-top: none;
+    border-bottom: 2px solid #d71212;
+    padding: auto;
+    flex-wrap: wrap;
+  }
+  /* line 2002, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  /* line 2006, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main label:last-child {
+    padding-right: 15px;
+  }
+  /* line 2009, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main .bread {
+    margin-right: 15px;
+    margin-left: 3px;
+  }
+  /* line 2012, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .breadcrumbs-main .bread img {
+    width: 7px;
+  }
+  /* line 2017, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .breadcrumbs .red-block {
+    display: none;
+    top: 52px;
+  }
+  /*VIEWING*/
+  /*SIGN UP*/
+  /* line 2025, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in {
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  /* line 2029, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .log-label {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  /* line 2033, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .login-block .log-in .label-after-resetpas {
+    width: 100%;
+    font-size: 15px;
+  }
+  /* line 2039, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form {
+    width: 100%;
+  }
+  /* line 2041, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form label {
+    font-size: 16px;
+  }
+  /* line 2044, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form input {
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    height: 46px;
+  }
+  /* line 2050, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form button {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    height: 46px;
+  }
+  /* line 2056, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .log-form textarea {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  /*SIGN UP*/
+  /*FAQ*/
+  /* line 2065, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 40px;
+  }
+  /* line 2069, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* line 2074, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question {
+    margin-bottom: 130px;
+  }
+  /* line 2076, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question .question_title {
+    height: 52px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* line 2081, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .container_faq .faq_block .faq_question .answer_description {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  /*FAQ*/
+  /*LEGAL NOTICE*/
+  /* line 2090, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+    padding-top: 43px;
+    min-height: auto;
+    width: auto;
+  }
+  /* line 2097, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* line 2101, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  .l-n-wrap .text-block {
+    font-size: 15px;
+    line-height: 170%;
+  }
+  /*LEGAL NOTICE*/
+  /*FOOTER*/
+  /* line 2108, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer {
+    height: 700px;
+  }
+  /* line 2110, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block {
+    margin: 0 20px 0 20px;
+  }
+  /* line 2112, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* line 2116, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block {
+    margin-top: 50px;
+    width: 50%;
+  }
+  /* line 2119, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block p {
+    margin-bottom: 27px;
+    width: 100%;
+  }
+  /* line 2124, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block.two {
+    align-items: flex-end;
+  }
+  /* line 2126, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .foo-menu .foo-menu-block.two p {
+    width: 65%;
+  }
+  /* line 2131, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+  /* line 2137, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form {
+    width: 100%;
+  }
+  /* line 2139, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form input {
+    width: 70%;
+    font-size: 16px;
+  }
+  /* line 2143, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form button {
+    width: 30%;
+  }
+  /* line 2146, ../../../../../OSPanel/domains/motordox/wp-content/themes/motordox/scss/style.scss */
+  footer .footer-top-block .subscribe .subscr-form p {
+    margin-bottom: 60px;
+  }
+  /*FOOTER*/
+}
+
+/*# sourceMappingURL=style.css.map */
